@@ -15,6 +15,8 @@ MongoClient.connect('mongodb://smacd:smacd@ds145669.mlab.com:45669/quotes', (err
 
 //var randomRec = db.getCollection("quotes")
 
+//now let's try and upload to a branch other than master
+
 app.set('view engine', 'ejs')
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())
