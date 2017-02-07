@@ -15,8 +15,6 @@ MongoClient.connect('mongodb://smacd:smacd@ds145669.mlab.com:45669/quotes', (err
 
 //var randomRec = db.getCollection("quotes")
 
-//adding a comment while I check how pushing changes to github works.
-
 app.set('view engine', 'ejs')
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())
